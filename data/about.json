@@ -1,0 +1,25 @@
+{
+  "_instructions": "About section content - tell your professional story and showcase key metrics.",
+  "sectionTitle": "About Me",
+  "content": [
+    "Backend Software Engineer with 3+ years of experience designing and delivering production-grade distributed systems using Java, Spring Boot, and AWS. Proven track record optimizing Kafka event pipelines (2.5M+ events/cycle at 10K+ req/min), cutting P99 latency by 80%, and",
+    "resolving P0 incidents for 100K+ concurrent users. Expert in REST API design, microservices architecture, Hibernate/JPA, Redis caching, CI/CD pipelines, and cloud-native deployments on AWS. Currently building AI-integrated backend systems with Google ADK and LangChain4j."
+  ],
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "title": "4+",
+      "description": "Companies"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "title": "3+",
+      "description": "Projects"
+    },
+    {
+      "icon": "fas fa-code",
+      "title": "22+",
+      "description": "Skills"
+    }
+  ]
+}

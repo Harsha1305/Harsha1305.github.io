@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Harshavardhan Narayanaswamy",
+    "title": "Backend Software Engineer",
+    "bio": "Backend Software Engineer with 3+ years of experience designing and delivering production-grade distributed systems using Java, Spring Boot, and AWS. Proven track record optimizing Kafka event pipelines (2.5M+ events/cycle at 10K+ req/min), cutting P99 latency by 80%, and resolving P0 incidents for 100K+ concurrent users. Expert in REST API design, microservices architecture, Hibernate/JPA, Redis caching, CI/CD pipelines, and cloud-native deployments on AWS. Currently building AI-integrated backend systems with Google ADK and LangChain4j."
+  },
+  "contact": {
+    "email": "nharshavardhan1398@gmail.com",
+    "phone": "(817) 903-4659",
+    "githubUsername": "Harsha1305",
+    "linkedin": "https://www.linkedin.com/in/harshavardhan-narayanaswamy-52a603230/"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Harshavardhan Narayanaswamy - Portfolio",
+    "description": "Backend Software Engineer with 3+ years of experience designing and delivering production-grade distributed systems using Java, Spring Boot, and AWS. Proven track record optimizing Kafka event pipelines (2.5M+ events/cycle at 10K+ req/min), cutting P99 latency by 80%, and resolving P0 incidents for 100K+ concurrent users. Expert in REST API design, microservices architecture, Hibernate/JPA, Redis caching, CI/CD pipelines, and cloud-native deployments on AWS. Currently building AI-integrated backend systems with Google ADK and LangChain4j."
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "_instructions": "Add your professional projects.",
+  "sectionTitle": "Portfolio",
+  "subtitle": "Featured professional projects",
+  "projects": [
+    {
+      "title": "AILogAnalyzer — Multi-Agent JVM Diagnostics Platform",
+      "description": "Designed an 8-agent orchestration platform using Google ADK and Java 17 that analyzes live microservice logs across Ecommerce, Finance, and Health domains in real time, ingesting from 4 Kafka topics and JMX MBean counters to detect latency spikes, deadlocks, memory leaks, and session conflicts.\nEngineered OrchestratorAgent with parallel ExecutorService dispatch per 500ms micro-batch, reducing pipeline analysis latency from O(n agents) to O(1 slowest agent) achieving sub-second anomaly detection at scale with MemoryAgent’s heap leak signal recognition and GC-thrash pattern detection.\nApplied domain-driven alert severity, Finance data conflicts escalate to FATAL (regulatory/double-spend risk), Health latency thresholds tightened by 40% for patient-facing SLAs routing each alert type to sector-specific remediation pipelines via Kafka.",
+      "longDescription": "Designed an 8-agent orchestration platform using Google ADK and Java 17 that analyzes live microservice logs across Ecommerce, Finance, and Health domains in real time, ingesting from 4 Kafka topics and JMX MBean counters to detect latency spikes, deadlocks, memory leaks, and session conflicts.\nEngineered OrchestratorAgent with parallel ExecutorService dispatch per 500ms micro-batch, reducing pipeline analysis latency from O(n agents) to O(1 slowest agent) achieving sub-second anomaly detection at scale with MemoryAgent’s heap leak signal recognition and GC-thrash pattern detection.\nApplied domain-driven alert severity, Finance data conflicts escalate to FATAL (regulatory/double-spend risk), Health latency thresholds tightened by 40% for patient-facing SLAs routing each alert type to sector-specific remediation pipelines via Kafka.",
+      "category": "Software Development",
+      "technologies": [
+        "Java 17",
+        "Spring Boot",
+        "Google ADK",
+        "Apache Kafka",
+        "JMX",
+        "Hibernate",
+        "JUnit 5"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "AIFitro — AI-Powered Fitness Tracking Platform",
+      "description": "Architected a cloud-native microservices platform using Spring Boot, Spring Cloud Gateway (WebFlux), Eureka service discovery, and Keycloak (OAuth2 PKCE) enabling stateless authentication, token-based authorization, and secure service-to service communication.\nDesigned an event-driven Kafka pipeline with MongoDB persistence supporting ~10K req/min, with idempotency controls and DLQ retry logic ensuring reliable data processing with zero message loss across distributed services.\nBuilt a React + Redux frontend with real-time analytics dashboards integrated with backend REST APIs, deployed via Docker and Kubernetes with Jenkins CI/CD pipelines for automated build, test, and release cycles.",
+      "longDescription": "Architected a cloud-native microservices platform using Spring Boot, Spring Cloud Gateway (WebFlux), Eureka service discovery, and Keycloak (OAuth2 PKCE) enabling stateless authentication, token-based authorization, and secure service-to service communication.\nDesigned an event-driven Kafka pipeline with MongoDB persistence supporting ~10K req/min, with idempotency controls and DLQ retry logic ensuring reliable data processing with zero message loss across distributed services.\nBuilt a React + Redux frontend with real-time analytics dashboards integrated with backend REST APIs, deployed via Docker and Kubernetes with Jenkins CI/CD pipelines for automated build, test, and release cycles.",
+      "category": "UX/UI Design",
+      "technologies": [
+        "Spring Boot",
+        "Kafka",
+        "MongoDB",
+        "React/Redux",
+        "Keycloak OAuth2",
+        "Docker",
+        "Kubernetes"
+      ],
+      "icon": "fas fa-globe",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Conference Management System",
+      "description": "Built a Spring Boot REST API platform backed by MySQL and Hibernate/JPA to manage paper submissions, user registrations, and event notifications for 150+ users, with Maven for dependency management and Git for version control.\nImplemented Spring Security role-based access control for multiple user types (authors, reviewers, admins) and automated notification workflows using event-driven triggers, reducing administrative workload by 40%.\nOptimized SQL queries and connection pooling, achieving a measurable reduction in average server response time under concurrent load and improving system scalability for hybrid conference setups.",
+      "longDescription": "Built a Spring Boot REST API platform backed by MySQL and Hibernate/JPA to manage paper submissions, user registrations, and event notifications for 150+ users, with Maven for dependency management and Git for version control.\nImplemented Spring Security role-based access control for multiple user types (authors, reviewers, admins) and automated notification workflows using event-driven triggers, reducing administrative workload by 40%.\nOptimized SQL queries and connection pooling, achieving a measurable reduction in average server response time under concurrent load and improving system scalability for hybrid conference setups.",
+      "category": "Web Development",
+      "technologies": [
+        "Spring Boot",
+        "React",
+        "MySQL",
+        "Hibernate/JPA",
+        "Spring Security",
+        "Maven",
+        "Git",
+        "REST APIs"
+      ],
+      "icon": "fas fa-globe",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "demo": "https://github.com/Harsha1305/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+      "links": {
+        "github": "https://github.com/Harsha1305/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+        "demo": "https://github.com/Harsha1305/langchain-rag-retrieval-augmented-generation-for-document-understanding",
+        "live": "https://github.com/Harsha1305/langchain-rag-retrieval-augmented-generation-for-document-understanding"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "demo": "https://github.com/Harsha1305/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+      "links": {
+        "github": "https://github.com/Harsha1305/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+        "demo": "https://github.com/Harsha1305/predictive-maintainence-using-data-analysis-and-time-series-forecasting",
+        "live": "https://github.com/Harsha1305/predictive-maintainence-using-data-analysis-and-time-series-forecasting"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "customer-churn-prediction",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/customer-churn-prediction",
+      "demo": "https://github.com/Harsha1305/customer-churn-prediction",
+      "links": {
+        "github": "https://github.com/Harsha1305/customer-churn-prediction",
+        "demo": "https://github.com/Harsha1305/customer-churn-prediction",
+        "live": "https://github.com/Harsha1305/customer-churn-prediction"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "supply-chain-optimizer",
+      "description": "Interactive application built for continuous learning",
+      "longDescription": "Interactive application built for continuous learning",
+      "category": "Web Development",
+      "technologies": [
+        "Python",
+        "Vue",
+        "TypeScript",
+        "CSS",
+        "Dockerfile",
+        "JavaScript",
+        "HTML"
+      ],
+      "icon": "fas fa-globe",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/supply-chain-optimizer",
+      "demo": "https://github.com/Harsha1305/supply-chain-optimizer",
+      "links": {
+        "github": "https://github.com/Harsha1305/supply-chain-optimizer",
+        "demo": "https://github.com/Harsha1305/supply-chain-optimizer",
+        "live": "https://github.com/Harsha1305/supply-chain-optimizer"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "spark-and-kafka_iot-data-processing-and-analytics",
+      "description": "Practice application demonstrating full-stack development skills",
+      "longDescription": "Practice application demonstrating full-stack development skills",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/spark-and-kafka_iot-data-processing-and-analytics",
+      "demo": "https://github.com/Harsha1305/spark-and-kafka_iot-data-processing-and-analytics",
+      "links": {
+        "github": "https://github.com/Harsha1305/spark-and-kafka_iot-data-processing-and-analytics",
+        "demo": "https://github.com/Harsha1305/spark-and-kafka_iot-data-processing-and-analytics",
+        "live": "https://github.com/Harsha1305/spark-and-kafka_iot-data-processing-and-analytics"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "AIRecommendationFitnessApp",
+      "description": "AIRecommendationFitnessApp",
+      "longDescription": "AIRecommendationFitnessApp",
+      "category": "Data Science",
+      "technologies": [
+        "Java",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/AIRecommendationFitnessApp",
+      "demo": "https://github.com/Harsha1305/AIRecommendationFitnessApp",
+      "links": {
+        "github": "https://github.com/Harsha1305/AIRecommendationFitnessApp",
+        "demo": "https://github.com/Harsha1305/AIRecommendationFitnessApp",
+        "live": "https://github.com/Harsha1305/AIRecommendationFitnessApp"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Job-Borad-Management",
+      "description": "GitHub repository: Job-Borad-Management",
+      "longDescription": "GitHub repository: Job-Borad-Management",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/Job-Borad-Management",
+      "demo": "https://github.com/Harsha1305/Job-Borad-Management",
+      "links": {
+        "github": "https://github.com/Harsha1305/Job-Borad-Management",
+        "demo": "https://github.com/Harsha1305/Job-Borad-Management",
+        "live": "https://github.com/Harsha1305/Job-Borad-Management"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "IMDB_Clone",
+      "description": "GitHub repository: IMDB_Clone",
+      "longDescription": "GitHub repository: IMDB_Clone",
+      "category": "Software Development",
+      "technologies": [
+        "JavaScript",
+        "CSS"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/IMDB_Clone",
+      "demo": "https://github.com/Harsha1305/IMDB_Clone",
+      "links": {
+        "github": "https://github.com/Harsha1305/IMDB_Clone",
+        "demo": "https://github.com/Harsha1305/IMDB_Clone",
+        "live": "https://github.com/Harsha1305/IMDB_Clone"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "SpringLearning",
+      "description": "GitHub repository: SpringLearning",
+      "longDescription": "GitHub repository: SpringLearning",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/SpringLearning",
+      "demo": "https://github.com/Harsha1305/SpringLearning",
+      "links": {
+        "github": "https://github.com/Harsha1305/SpringLearning",
+        "demo": "https://github.com/Harsha1305/SpringLearning",
+        "live": "https://github.com/Harsha1305/SpringLearning"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Java",
+      "description": "GitHub repository: Java",
+      "longDescription": "GitHub repository: Java",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/Java",
+      "demo": "https://github.com/Harsha1305/Java",
+      "links": {
+        "github": "https://github.com/Harsha1305/Java",
+        "demo": "https://github.com/Harsha1305/Java",
+        "live": "https://github.com/Harsha1305/Java"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "React_ToDO_App",
+      "description": "GitHub repository: React_ToDO_App",
+      "longDescription": "GitHub repository: React_ToDO_App",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/React_ToDO_App",
+      "demo": "https://github.com/Harsha1305/React_ToDO_App",
+      "links": {
+        "github": "https://github.com/Harsha1305/React_ToDO_App",
+        "demo": "https://github.com/Harsha1305/React_ToDO_App",
+        "live": "https://github.com/Harsha1305/React_ToDO_App"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "microservice",
+      "description": "GitHub repository: microservice",
+      "longDescription": "GitHub repository: microservice",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/microservice",
+      "demo": "https://github.com/Harsha1305/microservice",
+      "links": {
+        "github": "https://github.com/Harsha1305/microservice",
+        "demo": "https://github.com/Harsha1305/microservice",
+        "live": "https://github.com/Harsha1305/microservice"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "SpringBoot",
+      "description": "GitHub repository: SpringBoot",
+      "longDescription": "GitHub repository: SpringBoot",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/SpringBoot",
+      "demo": "https://github.com/Harsha1305/SpringBoot",
+      "links": {
+        "github": "https://github.com/Harsha1305/SpringBoot",
+        "demo": "https://github.com/Harsha1305/SpringBoot",
+        "live": "https://github.com/Harsha1305/SpringBoot"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Operating-Systems",
+      "description": "GitHub repository: Operating-Systems",
+      "longDescription": "GitHub repository: Operating-Systems",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/Operating-Systems",
+      "demo": "https://github.com/Harsha1305/Operating-Systems",
+      "links": {
+        "github": "https://github.com/Harsha1305/Operating-Systems",
+        "demo": "https://github.com/Harsha1305/Operating-Systems",
+        "live": "https://github.com/Harsha1305/Operating-Systems"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "HarshavardhanN.github.io",
+      "description": "GitHub repository: HarshavardhanN.github.io",
+      "longDescription": "GitHub repository: HarshavardhanN.github.io",
+      "category": "Data Science",
+      "technologies": [
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/HarshavardhanN.github.io",
+      "demo": "https://github.com/Harsha1305/HarshavardhanN.github.io",
+      "links": {
+        "github": "https://github.com/Harsha1305/HarshavardhanN.github.io",
+        "demo": "https://github.com/Harsha1305/HarshavardhanN.github.io",
+        "live": "https://github.com/Harsha1305/HarshavardhanN.github.io"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "Conference-Management",
+      "description": "GitHub repository: Conference-Management",
+      "longDescription": "GitHub repository: Conference-Management",
+      "category": "Data Science",
+      "technologies": [
+        "JavaScript",
+        "Java",
+        "CSS",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/Conference-Management",
+      "demo": "https://github.com/Harsha1305/Conference-Management",
+      "links": {
+        "github": "https://github.com/Harsha1305/Conference-Management",
+        "demo": "https://github.com/Harsha1305/Conference-Management",
+        "live": "https://github.com/Harsha1305/Conference-Management"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "PythonLearning",
+      "description": "GitHub repository: PythonLearning",
+      "longDescription": "GitHub repository: PythonLearning",
+      "category": "Backend Development",
+      "technologies": [
+        "CSS",
+        "JavaScript",
+        "SCSS",
+        "Less",
+        "HTML",
+        "Python"
+      ],
+      "icon": "fas fa-brain",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/PythonLearning",
+      "demo": "https://github.com/Harsha1305/PythonLearning",
+      "links": {
+        "github": "https://github.com/Harsha1305/PythonLearning",
+        "demo": "https://github.com/Harsha1305/PythonLearning",
+        "live": "https://github.com/Harsha1305/PythonLearning"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "C-_Learning",
+      "description": "GitHub repository: C-_Learning",
+      "longDescription": "GitHub repository: C-_Learning",
+      "category": "Software Development",
+      "technologies": [
+        "C#"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/C-_Learning",
+      "demo": "https://github.com/Harsha1305/C-_Learning",
+      "links": {
+        "github": "https://github.com/Harsha1305/C-_Learning",
+        "demo": "https://github.com/Harsha1305/C-_Learning",
+        "live": "https://github.com/Harsha1305/C-_Learning"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "theNew",
+      "description": "GitHub repository: theNew",
+      "longDescription": "GitHub repository: theNew",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/theNew",
+      "demo": "https://github.com/Harsha1305/theNew",
+      "links": {
+        "github": "https://github.com/Harsha1305/theNew",
+        "demo": "https://github.com/Harsha1305/theNew",
+        "live": "https://github.com/Harsha1305/theNew"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    },
+    {
+      "title": "gitDemo",
+      "description": "GitHub repository: gitDemo",
+      "longDescription": "GitHub repository: gitDemo",
+      "category": "Software Development",
+      "technologies": [
+        "Java"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "status": "Completed",
+      "role": "Lead Developer",
+      "duration": "",
+      "client": "",
+      "github": "https://github.com/Harsha1305/gitDemo",
+      "demo": "https://github.com/Harsha1305/gitDemo",
+      "links": {
+        "github": "https://github.com/Harsha1305/gitDemo",
+        "demo": "https://github.com/Harsha1305/gitDemo",
+        "live": "https://github.com/Harsha1305/gitDemo"
+      },
+      "metrics": {
+        "users": "",
+        "performance": "",
+        "impact": ""
+      }
+    }
+  ]
+}

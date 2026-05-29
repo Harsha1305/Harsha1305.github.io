@@ -1,0 +1,59 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Student Software Developer",
+      "company": "University of Texas at Arlington",
+      "period": "Aug 2025 – Dec 2025",
+      "location": "",
+      "description": "Built a Python/AWS equipment management platform serving 200+ users, integrating AWS SNS event-driven notifications for real-time booking alerts reducing equipment delays by 30% and enabling proactive scheduling across departments.\nDesigned automated late-return tracking with analytics dashboards, cutting overdue returns by 20% and giving administrators real-time visibility into equipment usage patterns.\nApplied clean architecture principles and automated workflows that improved day-to-day platform operational efficiency by 30%, reducing manual overhead for department staff.",
+      "responsibilities": [
+        "Built a Python/AWS equipment management platform serving 200+ users, integrating AWS SNS event-driven notifications for real-time booking alerts reducing equipment delays by 30% and enabling proactive scheduling across departments",
+        "Designed automated late-return tracking with analytics dashboards, cutting overdue returns by 20% and giving administrators real-time visibility into equipment usage patterns",
+        "Applied clean architecture principles and automated workflows that improved day-to-day platform operational efficiency by 30%, reducing manual overhead for department staff"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "LTIMindtree",
+      "period": "Oct 2021 – Nov 2023",
+      "location": "",
+      "description": "Client: Nokia R&D — Verizon, Vodafone UK, Vodafone Italy\nRedesigned a Kafka event processing pipeline handling 2.5M+ records/billing cycle at 10K+ req/min; introduced idempotent consumer groups and dead-letter-queue (DLQ) retry logic, reducing service failures by 20% and eliminating all duplicate processing incidents in production.\nOptimized latency-critical REST API call flows for Verizon production serving millions of users, cut P99 latency from 100ms to 20ms via session-state preloading and connection-pool tuning; Bengaluru layered Redis write-through caching, reducing DB round-trips by 65% and query times by 40%.\nResolved a P0 production outage affecting 100K+ concurrent Vodafone users by implementing distributed locking and idempotency controls, eliminating 90% of session-collision errors within a single release cycle.\nMigrated 6 legacy Diameter protocol components to gRPC-based microservices (reducing inter-service latency 25–30%), delivered Spring Batch reconciliation pipelines achieving 89.95% data accuracy, and architected geo-distributed deployments that doubled peak traffic capacity.",
+      "responsibilities": [
+        "Client: Nokia R&D — Verizon, Vodafone UK, Vodafone Italy",
+        "Redesigned a Kafka event processing pipeline handling 2",
+        "5M+ records/billing cycle at 10K+ req/min; introduced idempotent consumer groups and dead-letter-queue (DLQ) retry logic, reducing service failures by 20% and eliminating all duplicate processing incidents in production",
+        "Optimized latency-critical REST API call flows for Verizon production serving millions of users, cut P99 latency from 100ms to 20ms via session-state preloading and connection-pool tuning; Bengaluru layered Redis write-through caching, reducing DB round-trips by 65% and query times by 40%",
+        "Resolved a P0 production outage affecting 100K+ concurrent Vodafone users by implementing distributed locking and idempotency controls, eliminating 90% of session-collision errors within a single release cycle",
+        "Migrated 6 legacy Diameter protocol components to gRPC-based microservices (reducing inter-service latency 25–30%), delivered Spring Batch reconciliation pipelines achieving 89",
+        "95% data accuracy, and architected geo-distributed deployments that doubled peak traffic capacity"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "LTIMindtree",
+      "period": "Oct 2020 – Sep 2021",
+      "location": "",
+      "description": "Client: Aflac — Insurance Benefits Enrollment Platform\nEngineered Java/Spring Boot REST APIs and microservices for Aflac’s enterprise benefits enrollment platform, enabling secure agent and admin management of enrollments across the US using Hibernate/JPA, PostgreSQL, and Maven.\nElevated JUnit 5 test coverage to 85%+ across all services, resolved every high/critical SonarQube issue pre-release, and mentored new engineers on Java best practices, Git workflows, and CI/CD with Jenkins.\nServed as on-call engineer for production deployments, monitoring Dynatrace dashboards and AWS CloudWatch in real time to detect and resolve incidents before user impact, maintaining 99.9% uptime SLA.",
+      "responsibilities": [
+        "Client: Aflac — Insurance Benefits Enrollment Platform",
+        "Engineered Java/Spring Boot REST APIs and microservices for Aflac’s enterprise benefits enrollment platform, enabling secure agent and admin management of enrollments across the US using Hibernate/JPA, PostgreSQL, and Maven",
+        "Elevated JUnit 5 test coverage to 85%+ across all services, resolved every high/critical SonarQube issue pre-release, and mentored new engineers on Java best practices, Git workflows, and CI/CD with Jenkins",
+        "Served as on-call engineer for production deployments, monitoring Dynatrace dashboards and AWS CloudWatch in real time to detect and resolve incidents before user impact, maintaining 99",
+        "9% uptime SLA"
+      ]
+    },
+    {
+      "title": "Student Software Engineer",
+      "company": "Orgolite Agro Pvt Ltd",
+      "period": "Jan 2020 - Mar 2020",
+      "location": "",
+      "description": "Built a Java/Spring Boot REST API platform with MySQL to deliver real-time market pricing and government scheme information to farmers, integrating third-party APIs for live data feeds.\nImplemented Spring Security role-based access control for multiple user types, increasing platform adoption and farmer participation by ~25%.",
+      "responsibilities": [
+        "Built a Java/Spring Boot REST API platform with MySQL to deliver real-time market pricing and government scheme information to farmers, integrating third-party APIs for live data feeds",
+        "Implemented Spring Security role-based access control for multiple user types, increasing platform adoption and farmer participation by ~25%"
+      ]
+    }
+  ]
+}

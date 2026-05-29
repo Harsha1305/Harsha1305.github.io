@@ -1,0 +1,63 @@
+{
+  "_instructions": "Hero section content.",
+  "greeting": "Hello, I'm",
+  "name": "Harshavardhan Narayanaswamy",
+  "title": "Backend Software Engineer",
+  "summary": "Backend Software Engineer with 4+ years of experience specializing in Java (8, 11, 17), Python, JavaScript.",
+  "avatarUrl": "/avatar.png",
+  "tagline": "Backend Software Engineer",
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "4+",
+      "icon": "fas fa-briefcase"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "3+",
+      "icon": "fas fa-project-diagram"
+    },
+    {
+      "label": "Certifications",
+      "value": "0+",
+      "icon": "fas fa-certificate"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary",
+        "external": false
+      },
+      {
+        "text": "View Portfolio",
+        "href": "#projects",
+        "type": "secondary",
+        "external": false
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Harsha1305",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshavardhan-narayanaswamy-52a603230/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:nharshavardhan1398@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "scrollIndicator": {
+    "text": "Scroll to discover more",
+    "icon": "fas fa-chevron-down"
+  }
+}

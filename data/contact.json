@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "Let's Create Something Amazing",
+  "subtitle": "Have a project in mind? Let's bring it to life together.",
+  "email": "nharshavardhan1398@gmail.com",
+  "location": "Arlington, TX",
+  "availability": "Open to opportunities",
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Harsha1305",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshavardhan-narayanaswamy-52a603230/",
+      "icon": "fab fa-linkedin-in"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:nharshavardhan1398@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}
